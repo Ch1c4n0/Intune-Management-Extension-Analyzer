@@ -102,7 +102,7 @@ function Get-LogText {
 
 # Criar o formulário principal
 $form = New-Object System.Windows.Forms.Form
-$form.Text = "Intune Log Viewer - Marcelo dos Santos Gonçalves - MVP Security"
+$form.Text = "Intune Log Viewer - Marcelo dos Santos Goncalves - MVP Security"
 $form.Size = New-Object System.Drawing.Size(900,600)
 $form.StartPosition = "CenterScreen"
 $form.BackColor = [System.Drawing.Color]::Gray
@@ -137,11 +137,11 @@ foreach ($log in $logConfigs) {
     $btn.BackColor = [System.Drawing.Color]::Gray
     $btn.ForeColor = [System.Drawing.Color]::Black
     $btn.Font = New-Object System.Drawing.Font("Segoe UI", 12, [System.Drawing.FontStyle]::Bold)
-    $btn.Add_Click({
-        ShowLogViewer $log.Name $log.File
-    })
     $panelMenu.Controls.Add($btn)
     $menuButtons += $btn
+    $logName = $log.Name
+    $logFile = $log.File
+    $btn.Add_Click([ScriptBlock]::Create("ShowLogViewer '$logName' '$logFile'"))
     $y += 50
 }
 
