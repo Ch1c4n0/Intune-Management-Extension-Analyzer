@@ -32,7 +32,7 @@ This script creates a PowerShell GUI to view all logs above. Allows filtering by
 You can install UnifiedLogViewer directly from PowerShell Gallery:
 
 ```
-Install-Module -Name UnifiedLogViewer
+Install-Module -Name IntuneManagementExtensionAnalyzer
 ```
 After installing, run:
 
@@ -43,7 +43,7 @@ Get-IntuneLogs
 Or run directly from the internet (no install):
 
 ```
-IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/UnifiedLogViewer.ps1' -UseBasicParsing)
+IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/IntuneManagementExtensionAnalyzer.ps1' -UseBasicParsing)
 ```
 ---
 
@@ -81,7 +81,7 @@ Este script cria uma interface gráfica em PowerShell para visualizar todos os l
 Você pode instalar o UnifiedLogViewer diretamente do PowerShell Gallery:
 
 ```
-Install-Module -Name UnifiedLogViewer
+Install-Module -Name IntuneManagementExtensionAnalyzer
 ```
 Após instalar, execute:
 
@@ -92,7 +92,7 @@ Get-IntuneLogs
 Ou executar diretamente pela internet (sem instalar):
 
 ```
-IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/UnifiedLogViewer.ps1' -UseBasicParsing)
+IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/IntuneManagementExtensionAnalyzer.ps1' -UseBasicParsing)
 ```
 
 
