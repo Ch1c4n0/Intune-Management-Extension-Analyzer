@@ -25,6 +25,9 @@ Este script cria uma interface gráfica em PowerShell para visualizar todos os l
 - Atualização dinâmica
 - Visualização detalhada de cada entrada de log
 
+  <img width="888" height="629" alt="image" src="https://github.com/user-attachments/assets/5363d378-25dc-4845-82ea-0d6d5444471c" />
+
+
 ---
 
 # Intune Management Extension Analyzer
