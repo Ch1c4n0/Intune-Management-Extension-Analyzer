@@ -42,7 +42,7 @@ Or run directly from the internet (no install):
 
 ```
 IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/UnifiedLogViewer.ps1' -UseBasicParsing)
-
+```
 ---
 
 # Intune Management Extension Analyzer
