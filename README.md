@@ -25,6 +25,8 @@ This script creates a PowerShell GUI to view all logs above. Allows filtering by
 - Dynamic update
 - Detailed view of each log entry
 
+    <img width="888" height="629" alt="image" src="https://github.com/user-attachments/assets/5363d378-25dc-4845-82ea-0d6d5444471c" />
+
 ## Installation and Usage
 
 You can install UnifiedLogViewer directly from PowerShell Gallery:
