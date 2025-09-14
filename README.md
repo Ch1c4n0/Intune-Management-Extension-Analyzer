@@ -27,7 +27,26 @@ Este script cria uma interface gráfica em PowerShell para visualizar todos os l
 
   <img width="888" height="629" alt="image" src="https://github.com/user-attachments/assets/5363d378-25dc-4845-82ea-0d6d5444471c" />
 
+## Instalação e Execução
 
+Você pode instalar o UnifiedLogViewer diretamente do PowerShell Gallery:
+
+```
+Install-Module -Name UnifiedLogViewer
+```
+Após instalar, execute:
+
+```
+Get-IntuneLogs
+```
+
+Ou executar diretamente pela internet (sem instalar):
+
+```
+IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/UnifiedLogViewer.ps1' -UseBasicParsing)
+```
+
+---
 ---
 
 # Intune Management Extension Analyzer
@@ -56,3 +75,21 @@ This script creates a PowerShell GUI to view all logs above. Allows filtering by
 - Text and date filter
 - Dynamic update
 - Detailed view of each log entry
+
+## Installation and Usage
+
+You can install UnifiedLogViewer directly from PowerShell Gallery:
+
+```
+Install-Module -Name UnifiedLogViewer
+```
+After installing, run:
+
+```
+Get-IntuneLogs
+```
+
+Or run directly from the internet (no install):
+
+```
+IEX (Invoke-WebRequest 'https://raw.githubusercontent.com/Ch1c4n0/Intune-Management-Extension-Analyzer/refs/heads/main/UnifiedLogViewer.ps1' -UseBasicParsing)
