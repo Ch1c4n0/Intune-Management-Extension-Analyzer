@@ -15,7 +15,7 @@ Tool to view and analyze Intune Management Extension logs.
 - **Sensor.log**: Collects device sensor data.
 - **Win32AppInventory.log**: Inventories installed Win32 apps.
 
-## UnifiedLogViewer.ps1
+## IntuneManagementExtensionAnalyzer.ps1
 
 This script creates a PowerShell GUI to view all logs above. Allows filtering by text and date, updating view, and switching between logs easily. Uses Windows Forms for a friendly and fast data display.
 
@@ -64,7 +64,7 @@ Ferramenta para visualizar e analisar os logs do Intune Management Extension.
 - **Sensor.log**: Coleta dados de sensores do dispositivo.
 - **Win32AppInventory.log**: Inventaria aplicativos Win32 instalados.
 
-## UnifiedLogViewer.ps1
+## IntuneManagementExtensionAnalyzer.ps1
 
 Este script cria uma interface gráfica em PowerShell para visualizar todos os logs acima. Permite filtrar por texto e data, atualizar visualização e alternar entre logs facilmente. Utiliza Windows Forms para exibição amigável e rápida dos dados.
 
